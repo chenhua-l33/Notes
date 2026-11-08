@@ -1,5 +1,6 @@
 
 # Hacking: the Art of Exploitation
+[The book](https://archive.org/details/HackingTheArtOfExploitation/page/n38/mode/1up) p.38
 x86 assembly language syntax: the Intel syntax 
 gdb debugger: gdb -q ./a.out
 (gdb) break main
@@ -12,5 +13,5 @@ setting breakpoint on the main(), execution will stop right before our code is e
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjk3NDk4NDJdfQ==
+eyJoaXN0b3J5IjpbNzcxOTQ2Mzc4XX0=
 -->
