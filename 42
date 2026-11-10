@@ -1,0 +1,27 @@
+# 42
+## Makefile
+Automatic variable
+- $@ target name
+- $? all prerequisites newer than target
+- $ ^ output all prerequisites
+- $< output the first prerequisite
+
+Implicit rules
+- Compile a C program `$(CC) -c $(CPPFLAGS) $(CFLAGS) $^ -o $@`
+- Compile a C++ program `$(CXX) -c $(CPPFLAGS) $(CXXFLAGS) $^ -o $@`
+- Linking a single object file `$(CC) $(LDFLAGS) $^ $(LOADLIBES) $(LDLIBS) -o $@`
+
+Implicit vars
+- `CC` Program to compile C progs default cc
+- `CXX` Program to compile C++ progs default g++
+- `CFLAGS` Extra flags to give to the C compiler
+- `CXXFLAGS` Extra flags to give to the C++ compiler
+- `CPPFLAGS` Extra flags to give to the C preprocessor
+- `LDFLAGS` Extra flags to give to compilers supposed to invoke the linker
+
+
+
+
+
+
+> Written with [StackEdit](https://stackedit.io/).
