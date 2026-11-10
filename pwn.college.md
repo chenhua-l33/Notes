@@ -19,10 +19,13 @@ hacker@dojo:~$
 
 file command can take a file name and tell the type of file, can recognize symbolic links
 
-Wildcard: * (multi chars) ? (single char)
-
+Wildcard
+- \* (multi chars) 
+- ? (single char)
+-  [] is a wildcard for some subset of potential characters, specified within the brackets. e.g. [pwn] will match the character p, w, or n.
+  
   
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTMxNzczMTIsODI2NDMxNTMxXX0=
+eyJoaXN0b3J5IjpbLTE5MjYwODIyNDEsODI2NDMxNTMxXX0=
 -->
