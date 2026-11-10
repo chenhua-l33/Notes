@@ -19,8 +19,10 @@ hacker@dojo:~$
 
 file command can take a file name and tell the type of file, can recognize symbolic links
 
- 
+Wildcard: * (multi chars) ? (single char)
+
+  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2NDMxNTMxXX0=
+eyJoaXN0b3J5IjpbLTE3MTMxNzczMTIsODI2NDMxNTMxXX0=
 -->
