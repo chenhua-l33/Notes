@@ -24,8 +24,13 @@ Wildcard
 - ? (single char)
 -  [] is a wildcard for some subset of potential characters, specified within the brackets. e.g. [pwn] will match the character p, w, or n.
   
+filter out in a glob: a `!` or (in newer versions of bash) a `^`, the glob inverts, and that bracket instance matches characters that aren't listed
+
+
+
   
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjYwODIyNDEsODI2NDMxNTMxXX0=
+eyJoaXN0b3J5IjpbMTQwNjc2NDEzLC0xOTI2MDgyMjQxLDgyNj
+QzMTUzMV19
 -->
