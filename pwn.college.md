@@ -1,7 +1,8 @@
 
 # Pwn.college
 
-### Linux essentials
+## Linux essentials
+### Link files
 soft links: A hard link is an alternate address that indexes that data --- accesses to the hard link and accesses to the original file are completely identical, in that they immediately yield the necessary data.
 hard links: A soft/symbolic link, instead, contains the original file name. When you access the symbolic link, Linux will realize that it is a symbolic link, read the original file name, and then (typically) automatically access that file.
 
@@ -19,6 +20,7 @@ hacker@dojo:~$
 
 file command can take a file name and tell the type of file, can recognize symbolic links
 
+### File globbing
 Wildcard
 - \* (multi chars) 
 - ? (single char)
@@ -31,6 +33,6 @@ filter out in a glob: a `!` or (in newer versions of bash) a `^`, the glob inver
   
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjc2NDEzLC0xOTI2MDgyMjQxLDgyNj
-QzMTUzMV19
+eyJoaXN0b3J5IjpbMjUxMjExOTgzLDE0MDY3NjQxMywtMTkyNj
+A4MjI0MSw4MjY0MzE1MzFdfQ==
 -->
