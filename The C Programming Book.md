@@ -38,7 +38,24 @@ return p - s;   // # of chars (= bytes)
   ```
 - `*` binds looser than `[]`, so `*a[10]` means `*(a[10])`, not `(*a)[10]`.
 
+## Syntactic Sugar
+
+**Ternary operator** — compact `if/else` expression:
+```c
+return (n < 1 || n > 12) ? name[0] : name[n];
+```
+- Equivalent to:
+  ```c
+  if (n < 1 || n > 12)
+      return name[0];
+  else
+      return name[n];
+  ```
+- Form: `cond ? expr_if_true : expr_if_false`
+- Both branches must yield a compatible type; whole expression has that type.
+- Use for short, side-effect-free choices — avoid nesting for readability.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTg2NTAyLDY3NTY2ODA0NV19
+eyJoaXN0b3J5IjpbLTIzNjE2NTA2MSw2NzU2NjgwNDVdfQ==
 -->
